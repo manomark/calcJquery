@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="js/js.js"></script>
+        <link rel="stylesheet" href="css/estilos.css">
+        <!-- Include the above in your HEAD tag -->
+
+        <style type="text/css">
+            i  {
+                position:relative;
+                top: 15px;
+                left:25px;
+                border-right: 1px dashed #ccc;
+                padding-right:10px;
+            }
+
+        </style>
+        <title>CALC</title>
+    </head>
+
+    <body>
+        <div id="calculator">
+            <!-- Screen and clear key -->
+            <div class="row">
+                <div class="top">
+                    <form method="">
+                        <input type="button" class="clear" name="CE" value="CE">
+                        <i id="op"></i>
+                        <input type="text" class="screen" id="screen" value=""> 
+
+                    </form> 
+                </div>
+            </div>
+            
+            <div class="keys">
+                <!-- operators and other keys -->
+                <input type="button" name="btn" value="7">
+                <input type="button" name="btn" value="8">
+                <input type="button" name="btn" value="9">
+                <input type="button" name="add" value="+" class="operator">
+                <input type="button" name="btn" value="4">
+                <input type="button" name="btn" value="5">
+                <input type="button" name="btn" value="6">
+                <input type="button" name="sub" value="-" class="operator">
+                <input type="button" name="btn" value="1">
+                <input type="button" name="btn" value="2">
+                <input type="button" name="btn" value="3">
+                <input type="button" name="div" value="/" class="operator">
+                <input type="button" name="btn" value="0">
+                <input type="button" name="btn" value=".">
+                <input type="button" name="equal" value="=" class="eval">
+                <input type="button" name="mul" value="*" class="operator">
+            </div>
+        </div>
+    </body>
+</html>
+
